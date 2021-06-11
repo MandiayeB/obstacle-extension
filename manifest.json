@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Obstacle extension",
+    "version": "1.0.0",
+    "description": "Send notifications to Obstacle users.",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "action": {
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
