@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    background-color: #193047;
+}
+
+.text {
+    display: flex;
+    margin-left: 10px;
+    background-color: #193047;
+    padding: 15px;
+    font-family: Segoe UI;
+    color: rgb(53, 194, 230);
+}
+
+.text h1 {
+    font-weight: 500;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px rgb(43, 140, 189, 1),
+                    0 0 20px rgb(43, 140, 189, 1);
+    }
+}
+
+.text a {
+    font-size: 23px;
+    width: 138px;
+    margin-left: 15px;
+    margin-top: 1px;
+    display: block;
+    font-family: Segoe UI;
+    color: rgb(53, 194, 230);
+    border-bottom: 1px solid rgb(53, 194, 230);
+}
