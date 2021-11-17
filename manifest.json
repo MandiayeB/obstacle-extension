@@ -3,6 +3,9 @@
     "name": "Obstacle extension",
     "version": "1.0.0",
     "description": "Send notifications to Obstacle users.",
+    "background": {
+        "service_worker": "background.js"
+    },
     "icons": {
         "128": "./icons/icon128.png",
         "48": "./icons/icon48.png",
@@ -13,7 +16,7 @@
         "default_popup": "./public/popup.html"
     },
     "permissions": [
-        "activeTab",
-        "tabs"
+        "alarms",
+        "notifications"
     ]
 }
